@@ -1,0 +1,194 @@
+body{
+  font-family: 'Hind', sans-serif;
+}
+h1,h2,h3,h4{
+  font-family: 'Hind', sans-serif;
+}
+.preloader{
+  position: fixed;
+  display: inline-block;
+  background-color: #c3c3c3;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+}
+.preloader img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+
+.slider{
+  position: relative;
+  text-align: center;
+}
+.blur {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    background: #090909ba;
+    z-index: 1;
+}
+.data-slider {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+	color:white;
+    z-index: 2;
+    width:100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.data-slider h1 {
+    font-size: 75px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 30px;
+}
+.data-slider h2 {
+    font-size: 33px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 25px;
+}
+.data-slider p {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.motive{
+  position: relative;
+  padding: 100px 0px;
+}
+.motive p{
+  color: black;
+  font-weight: bold;
+  font-size: 25px;
+}
+.heading {
+    position: relative;
+    text-transform: uppercase;
+    padding-bottom: 80px;
+    color: black;
+    text-align: center;
+}
+.heading h1 {
+  position: relative;
+    color: #00000005;
+    font-size: 120px;
+}
+.heading .sub-heading {
+    position: absolute;
+    width: 100%;
+    top: 32%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+}
+.heading .sub-heading h2 {
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 0px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.heading .sub-heading p {
+    margin: 0px;
+    font-size: 20px;
+    color: #3b3434e3;
+    font-weight: 500;
+}
+.gallary {
+    background: #0000001a;
+    padding: 50px 0px;
+    position: relative;
+    padding-bottom: 100px;
+}
+.gallary-img h3 {
+    margin-top: 33px;
+    text-decoration: none;
+    color: black;
+}
+.gallary-img p {
+    color: #3b3434a8;
+    font-weight: 600;
+    text-decoration: none;
+}
+.gallary-img img {
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+.gallary-img:hover img {
+    box-shadow: 0px 0px 48px #747373d9;
+}
+a:hover, a:focus {
+    text-decoration:none;
+}
+.videos{
+  position: relative;
+  background: #212529;
+  padding: 65px 0px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+.videos .heading{
+  color: white;
+}
+.videos .heading h1 {
+    color: white;
+    font-size: 44px;
+}
+.videos .heading p {
+    color: #ffffff99;
+    font-size: 22px;
+    font-weight: 500;
+}
+.video-gallary h3 {
+    color: #ffffffeb;
+}
+.video-gallary p {
+    color: #ffffff6e;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+iframe {
+    width: 100%;
+}
+.mother-tongue blockquote p {
+    font-size: 23px;
+}
+.mother-tongue {
+    position: relative;
+    padding: 100px 0px;
+}
+
+@media (max-width: 991px) {
+
+  .data-slider{
+      padding:18px;
+      margin-top:80px;
+  }
+  .data-slider h1{
+      display:none;
+  }
+  .motive p{
+    padding: 18px;
+    font-size: 20px;
+  }
+  .heading h1{
+    font-size: 74px;
+  }
+  .heading .sub-heading p{
+    font-size: 15px;
+  }
+
+  .data-slider h1 {
+    font-size: 50px;
+}
+.data-slider h2 {
+  font-size: 25px;
+}
+}
